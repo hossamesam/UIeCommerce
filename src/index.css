@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Roboto:wght@400;700&family=Montserrat:ital,wght@0,700;1,400&display=swap');
+
+@theme {
+  /* WhiteShadow */
+    --color-WhiteShadow-100: #ffffff;
+    --color-WhiteShadow-200: #f8f7ff;
+    /* PlaceboSnow */
+    --color-PlaceboSnow-100: #fcfbfa;
+    --color-PlaceboSnow-200: #f9f6f6;
+    --color-PlaceboSnow-300: #fbfaf9;
+    --color-PlaceboSnow-400: #faf9f7;
+  /* InventivePokey */
+  --color-InventivePokey-100: #e89f71;
+  --color-InventivePokey-200: #b88e2f;
+  --color-InventivePokey-300: #FFF3E3;
+  /* Zahri Pink */
+  --color-ZahriPink-100: #e97171;
+  /* Pure Cyan */
+  --color-PureCyan-100: #2ec1ac;
+  /* Black */
+  --color-Black-100: #000000;
+  /* Kettleman Grey */
+  --color-KettlemanGrey-100: #898989;
+  --color-KettlemanGrey-200: #727272;
+  --color-KettlemanGrey-300: #666666;
+  --color-KettlemanGrey-400: #616161;
+  /* Lemon Forsythia */
+  --color-LemonForsythia-100: #ffe36b;
+  --color-LemonForsythia-200: #ffc700;
+  /* Silver Smoke */
+  --color-SilverSmoke-100: #f4f4f7;
+  --color-SilverSmoke-200: #f4f4f4;
+  --color-SilverSmoke-300: #d9d9d9;
+  --color-SilverSmoke-400: #b9b9b9;
+  --color-SilverSmoke-500: #c4c4c4;
+  --color-SilverSmoke-600: #b0b0b0;
+  --color-SilverSmoke-700: #9f9f9f;
+  --color-SilverSmoke-800: #9f9f9f;
+  /* Thalassophile */
+  --color-Thalassophile-100: #44aee8;
+  /* Carbon Night */
+  --color-CarbonNight-100: #3b3a3a;
+  --color-CarbonNight-200: #292323;
+  --color-CarbonNight-300: #242424;
+  --color-CarbonNight-400: #111111;
+}
+
+@theme {
+  --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+
+}
+
+@layer {
+  .font-caption {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-gray);
+  }
+
+  /* نصوص رمادية فاتحة */
+  .font-caption-light {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-gray-light);
+  }
+
+  /* عناوين كبيرة Poppins */
+  .font-poppins-bold {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+    color: var(--color-black);
+  }
+
+  .font-poppins-medium {
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: var(--color-black);
+  }
+
+  .font-poppins-semibold {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: var(--color-black);
+  }
+
+  /* نصوص كبيرة مائلة */
+  .font-poppins-italic {
+    font-family: var(--font-poppins);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    color: var(--color-black);
+  }
+
+  .font-montserrat-italic {
+    font-family: var(--font-montserrat);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    color: var(--color-black);
+  }
+
+  /* نصوص كبيرة Montserrat */
+  .font-montserrat-bold {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: var(--color-black);
+  }
+
+  /* نصوص وصفية */
+  .font-desc {
+    font-family: var(--font-poppins);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-gray);
+  }
+
+  .typeHover:hover {
+    font-weight: 700;
+    scale: 102%;
+    box-shadow: 0px 0px 6px var(--background-color);
+  }
+}
+
+:root {
+  --background-color: #181818;
+  --text-color: #000000;
+  --font-family: 'Arial', sans-serif;
+
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: var(--font-poppins);
+}
