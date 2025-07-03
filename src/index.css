@@ -3,13 +3,13 @@
 
 @theme {
   /* WhiteShadow */
-    --color-WhiteShadow-100: #ffffff;
-    --color-WhiteShadow-200: #f8f7ff;
-    /* PlaceboSnow */
-    --color-PlaceboSnow-100: #fcfbfa;
-    --color-PlaceboSnow-200: #f9f6f6;
-    --color-PlaceboSnow-300: #fbfaf9;
-    --color-PlaceboSnow-400: #F9F1E7;
+  --color-WhiteShadow-100: #ffffff;
+  --color-WhiteShadow-200: #f8f7ff;
+  /* PlaceboSnow */
+  --color-PlaceboSnow-100: #fcfbfa;
+  --color-PlaceboSnow-200: #f9f6f6;
+  --color-PlaceboSnow-300: #fbfaf9;
+  --color-PlaceboSnow-400: #F9F1E7;
   /* InventivePokey */
   --color-InventivePokey-100: #e89f71;
   --color-InventivePokey-200: #b88e2f;
@@ -44,15 +44,13 @@
   --color-CarbonNight-200: #292323;
   --color-CarbonNight-300: #242424;
   --color-CarbonNight-400: #111111;
-}
-
-@theme {
+  /* fonts */
   --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
   --font-roboto: 'Roboto', sans-serif;
   --font-montserrat: 'Montserrat', sans-serif;
-
 }
+
 
 @layer {
   .font-caption {
@@ -108,13 +106,14 @@
     line-height: 90px;
     color: var(--color-black);
   }
-    .font-poppins-thin {
-      font-family: var(--font-poppins);
-      font-weight: 100;
-      font-size: 12px;
-      line-height: 24px;
-      color: var(--color-gray);
-    }
+
+  .font-poppins-thin {
+    font-family: var(--font-poppins);
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--color-gray);
+  }
 
   .font-montserrat-italic {
     font-family: var(--font-montserrat);

@@ -1,21 +1,18 @@
-import Logos from "../../assets/Meubel_House_Logos-05.png";
-import Alert from "../../assets/mdi_account-alert-outline.svg";
-import Search from "../../assets/akar-icons_search.svg";
-import Heart from "../../assets/akar-icons_heart.svg";
-import ShoppingCart from "../../assets/ant-design_shopping-cart-outlined.svg";
+import Logos from "../../assets/Logo/Meubel_House_Logos-05.png";
+import Alert from "../../assets/HeaderIcons/mdi_account-alert-outline.svg";
+import Search from "../../assets/HeaderIcons/akar-icons_search.svg";
+import Heart from "../../assets/HeaderIcons/akar-icons_heart.svg";
+import ShoppingCart from "../../assets/HeaderIcons/ant-design_shopping-cart-outlined.svg";
 import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <div className='h-[100px] flex items-center justify-center gap-2 bg-WhiteShadow-100 '>
       <ul className='grid gap-16 grid-cols-[150px_1fr_auto] max-md:grid-cols-[150px_1fr] max-md:p-2 w-full justify-between  px-16'>
-
         <li className='flex items-center gap-2 text-BlackShadow-100 font-montserrat-bold text-[20px]'>
           <img src={Logos} alt="Meubel House Logo" />
           <div className='font-montserrat-bold '>Furniro</div>
         </li>
-
-
         <HeaderRouts />
         <HeaderIcons />
         <LeftIcons />

@@ -8,7 +8,7 @@ export default function AppRoutes() {
         <Routes>
             <Route index path="/home" element={<Home />} />
             <Route path="/" element={<Home />} />
-            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/:slug" element={<Shop  />} />
         </Routes>
     )
 }
