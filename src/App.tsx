@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div className="">
-      <Bannare />
-      <Home />
+      {/*
+      <BannerHome />
+      <Home /> */}
     </div>
   );
 }
