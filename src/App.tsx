@@ -1,5 +1,7 @@
-import Bannare from "./componant/Bannare/Bannare";
+
+import { RouterProvider } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import AppRoutes from "./Routes/AppRoutes";
 
 
 function App() {

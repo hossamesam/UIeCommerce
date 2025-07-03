@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import { useState } from 'react'
 import Image101 from '../../assets/image 101.png'
 import Image100 from '../../assets/image 100.png'
 import Image106 from '../../assets/image 106.png'
@@ -18,6 +18,7 @@ import Img6 from '../../assets/shop/image 6.png'
 import Images from '../../assets/shop/Images.png'
 
 import { VscArrowRight } from 'react-icons/vsc'
+import BannerHome from '../../componant/Banners/BannerHome/BannerHome'
 
 const DataCards = [
     {
@@ -67,6 +68,7 @@ const DataCards = [
 function Home() {
     return (
         <div>
+            <BannerHome />
 
             <div className='flex justify-center items-center flex-col text-black p-8'>
                 <h1 className='text-bold text-2xl'>Browse The Range</h1>
@@ -74,14 +76,14 @@ function Home() {
             </div>
 
             <div className='max-xl:hidden flex gap-4 w-full justify-center'>
-                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image101} alt="" />
-                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image100} alt="" />
-                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image106} alt="" />
+                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image101} alt="img1" />
+                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image100} alt="img2" />
+                <img className='rounded-3xl w-[381px] h-[480px] ' src={Image106} alt="img3" />
             </div>
             <div className='min-xl:hidden flex gap-4  w-full justify-center'>
-                <img className='rounded-3xl w-[190.5px]  h-[240px]' src={Image101} alt="" />
-                <img className='rounded-3xl w-[190.5px] h-[240px]' src={Image100} alt="" />
-                <img className='rounded-3xl w-[190.5px] h-[240px]' src={Image106} alt="" />
+                <img className='rounded-3xl w-[190.5px]  h-[240px]' src={Image101} alt="img1" />
+                <img className='rounded-3xl w-[190.5px] h-[240px]' src={Image100} alt="img2" />
+                <img className='rounded-3xl w-[190.5px] h-[240px]' src={Image106} alt="img3" />
             </div>
             <div className='text-center text-2xl font-bold text-black p-8'>
                 Our Products
@@ -92,7 +94,7 @@ function Home() {
                 ))
                 }
             </div>
-            <button className='mx-auto my-4 w-1/4 cursor-pointer  text-InventivePokey-200  border-2 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Show More</button>
+            <button className='mx-auto mt-4 mb-12 w-1/4 cursor-pointer  text-InventivePokey-200  border-2 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Show More</button>
             <Carousel />
 
             <div className='text-center text-xl  text-black p-8'>Share your setup with</div>
@@ -124,7 +126,7 @@ export function Carousel() {
                 <div className='h-full w-2/5 p-8 items-center justify-center flex flex-col'>
                     <h1 className='font-poppins-bold text-4xl! text-black py-5'>50+ Beautiful rooms inspiration</h1>
                     <h3 className=' text-black '>Our designer already made a lot of beautiful prototipe of rooms that inspire you</h3>
-                    <button className='mx-auto my-4 px-4 cursor-pointer  text-InventivePokey-200  border-2 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Show More</button>
+                    <button className='mx-auto my-4 px-4 cursor-pointer  text-InventivePokey-200  border-2 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Explore More</button>
                 </div>
                 <div className='w-3/5 h-4/5  self-center  relative overflow-hidden'>
                     {getSlides().map((slide, index) => (

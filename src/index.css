@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Roboto:wght@400;700&family=Montserrat:ital,wght@0,700;1,400&display=swap');
 
 @theme {
@@ -10,7 +9,7 @@
     --color-PlaceboSnow-100: #fcfbfa;
     --color-PlaceboSnow-200: #f9f6f6;
     --color-PlaceboSnow-300: #fbfaf9;
-    --color-PlaceboSnow-400: #faf9f7;
+    --color-PlaceboSnow-400: #F9F1E7;
   /* InventivePokey */
   --color-InventivePokey-100: #e89f71;
   --color-InventivePokey-200: #b88e2f;
@@ -109,6 +108,13 @@
     line-height: 90px;
     color: var(--color-black);
   }
+    .font-poppins-thin {
+      font-family: var(--font-poppins);
+      font-weight: 100;
+      font-size: 12px;
+      line-height: 24px;
+      color: var(--color-gray);
+    }
 
   .font-montserrat-italic {
     font-family: var(--font-montserrat);
