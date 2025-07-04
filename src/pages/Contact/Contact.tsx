@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../../componant/Banners/Banner/Banner'
 import Policy from '../../componant/Policy/Policy'
 import { FaClock, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'

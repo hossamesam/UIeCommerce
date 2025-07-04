@@ -7,7 +7,7 @@ import Bi_view from "../../assets/FilterSliderIcons/bi_view-list.svg";
 import Ci_grid from "../../assets/FilterSliderIcons/ci_grid-big-round.svg";
 
 
-import { useRef, useState } from 'react';
+import {useState } from 'react';
 import Policy from '../../componant/Policy/Policy';
 
 
@@ -61,7 +61,7 @@ function Shop() {
     )
 }
 function Filters({
-    countOfcards,
+    
     itemsPerPage,
     onItemsPerPageChange
 }: {
