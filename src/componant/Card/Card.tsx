@@ -1,15 +1,19 @@
 import { AiFillLike } from 'react-icons/ai'
 import { FaShareAlt } from 'react-icons/fa'
 import { FaCodeCompare } from 'react-icons/fa6'
+import { useNavigate } from 'react-router-dom'
 
 function Card({ img, title, details, price, discount, New }: { img: string, title: string, details: string, price: string, discount?: string, New?: boolean }) {
+  const navigate = useNavigate();
   return (
     <div className='w-[285px] h-[446px] relative'>
       <div className="group">
         <div className="absolute w-full h-full  hover:cursor-pointer">
         </div>
         <div className='hide hidden group-hover:flex absolute  flex-col justify-center items-center w-full h-full z-50 bg-zinc-100/30 text-Black-100'>
-          <button className='w-1/2 cursor-pointer  text-InventivePokey-200 bg-Black-100 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Add to cart</button>
+          <button
+            onClick={() => { navigate('/shop/Product')}}
+            className='w-1/2 cursor-pointer  text-InventivePokey-200 bg-Black-100 typeHover h-[50px] flex justify-center items-center text-[20px] font-bold'>Add to cart</button>
           <ul className='flex gap-3 justify-between items-center text-[18px] font-bold p-4 '>
             <li >
               <button className='flex cursor-pointer typeHover justify-center items-center gap-1'>

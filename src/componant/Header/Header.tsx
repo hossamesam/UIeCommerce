@@ -1,4 +1,4 @@
-import Logos from "../../assets/Logo/Meubel_House_Logos-05.png";
+import Logos from "../../assets/Logo/Meubel_House_Logos-05.svg";
 import Alert from "../../assets/HeaderIcons/mdi_account-alert-outline.svg";
 import Search from "../../assets/HeaderIcons/akar-icons_search.svg";
 import Heart from "../../assets/HeaderIcons/akar-icons_heart.svg";
