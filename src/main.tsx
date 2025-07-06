@@ -9,7 +9,7 @@ import TitleManager from './TitleManager/TitleManager.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/UIeCommerce">
       <TitleManager />
       <Header />
       <AppRoutes />
