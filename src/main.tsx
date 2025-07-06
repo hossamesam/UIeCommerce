@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './componant/Header/Header.tsx'
@@ -8,12 +8,11 @@ import AppRoutes from './Routes/AppRoutes.tsx'
 import TitleManager from './TitleManager/TitleManager.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <BrowserRouter basename="/UIeCommerce">
-      <TitleManager />
-      <Header />
-      <AppRoutes />
-      <Footer />
-    </BrowserRouter>
-  </StrictMode>
+  <BrowserRouter basename="/UIeCommerce">
+    <TitleManager />
+    <Header />
+    <AppRoutes />
+    <Footer />
+  </BrowserRouter>
+
 )
