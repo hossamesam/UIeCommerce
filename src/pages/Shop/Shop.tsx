@@ -1,20 +1,20 @@
 import BannerShop from '../../componant/Banners/Banner/Banner'
 import Card from '../../componant/Card/Card'
-import DataOfCards from '../../Data/DataOfCards.json'
+import DataOfCards, { type ICard } from '../../Data/DataOfCards'
 
 import Filtering from "../../assets/FilterSliderIcons/system-uicons_filtering.svg";
 import Bi_view from "../../assets/FilterSliderIcons/bi_view-list.svg";
 import Ci_grid from "../../assets/FilterSliderIcons/ci_grid-big-round.svg";
 
 
-import {useState } from 'react';
+import { useState } from 'react';
 import Policy from '../../componant/Policy/Policy';
 
 
 function Shop() {
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(12); // اجعلها state
-    const totalItems = DataOfCards.length;
+    const totalItems = DataOfCards().length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     // const countOfcards = useRef<HTMLInputElement>(null);
 
@@ -29,8 +29,7 @@ function Shop() {
     };
 
     const startIndex = (currentPage - 1) * itemsPerPage;
-    const currentItems = DataOfCards.slice(startIndex, startIndex + itemsPerPage);
-
+    const currentItems = DataOfCards().slice(startIndex, startIndex + itemsPerPage) as ICard[];
     return (
         <div className='w-full h-full '>
             <BannerShop />

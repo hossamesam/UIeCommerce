@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaStar, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import Card from '../../componant/Card/Card';
-import DataCards from '../../Data/DataOfCards.json';
+import DataCards from '../../Data/DataOfCards';
 
 
 const productImages = [
