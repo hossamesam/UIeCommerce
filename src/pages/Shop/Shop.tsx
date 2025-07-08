@@ -61,7 +61,7 @@ function Shop() {
     )
 }
 function Filters({
-    
+
     itemsPerPage,
     onItemsPerPageChange
 }: {

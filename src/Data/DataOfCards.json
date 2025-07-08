@@ -3,252 +3,252 @@
     "title": "Syltherine",
     "details": "Stylish cafe chair",
     "price": "Rp 2.500.000",
-    "img": "/src/assets/shop/image%201.png"
+    "img": "src/assets/shop/image%201.png"
   },
   {
     "title": "Lolito",
     "details": "Luxury big sofa",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%202.png"
+    "img": "src/assets/shop/image%202.png"
   },
   {
     "title": "Respira",
     "details": "Outdoor bar table and stool",
     "price": "Rp 500.000",
-    "img": "/src/assets/shop/image%203.png",
+    "img": "src/assets/shop/image%203.png",
     "discount": "50"
   },
   {
     "title": "Grifo",
     "details": "Night lamp",
     "price": "Rp 1.500.000",
-    "img": "/src/assets/shop/image%204.png",
+    "img": "src/assets/shop/image%204.png",
     "new": true
   },
   {
     "title": "Muggo",
     "details": "Small mug",
     "price": "Rp 150.000",
-    "img": "/src/assets/shop/image%205.png",
+    "img": "src/assets/shop/image%205.png",
     "discount": "30"
   },
   {
     "title": "Pingky",
     "details": "Cute bed set",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%206.png",
+    "img": "src/assets/shop/image%206.png",
     "new": true
   },
   {
     "title": "Elegant Mirror",
     "details": "Wall mounted mirror",
     "price": "Rp 900.000",
-    "img": "/src/assets/shop/img10.jpg"
+    "img": "src/assets/shop/img10.jpg"
   },
   {
     "title": "Modern Clock",
     "details": "Minimalist wall clock",
     "price": "Rp 350.000",
-    "img": "/src/assets/shop/img11.jpg",
+    "img": "src/assets/shop/img11.jpg",
     "discount": "10"
   },
   {
     "title": "Classic Vase",
     "details": "Ceramic flower vase",
     "price": "Rp 250.000",
-    "img": "/src/assets/shop/img12.jpg"
+    "img": "src/assets/shop/img12.jpg"
   },
   {
     "title": "Comfy Blanket",
     "details": "Soft and warm blanket",
     "price": "Rp 400.000",
-    "img": "/src/assets/shop/img13.jpg"
+    "img": "src/assets/shop/img13.jpg"
   },
   {
     "title": "Reading Lamp",
     "details": "Adjustable desk lamp",
     "price": "Rp 320.000",
-    "img": "/src/assets/shop/img14.jpg",
+    "img": "src/assets/shop/img14.jpg",
     "new": true
   },
   {
     "title": "Artistic Frame",
     "details": "Wooden photo frame",
     "price": "Rp 180.000",
-    "img": "/src/assets/shop/img15.jpg"
+    "img": "src/assets/shop/img15.jpg"
   },
   {
     "title": "Decorative Plant",
     "details": "Artificial green plant",
     "price": "Rp 220.000",
-    "img": "/src/assets/shop/img16.jpg"
+    "img": "src/assets/shop/img16.jpg"
   },
   {
     "title": "Syltherine",
     "details": "Stylish cafe chair",
     "price": "Rp 2.500.000",
-    "img": "/src/assets/shop/image%201.png"
+    "img": "src/assets/shop/image%201.png"
   },
   {
     "title": "Lolito",
     "details": "Luxury big sofa",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%202.png"
+    "img": "src/assets/shop/image%202.png"
   },
   {
     "title": "Respira",
     "details": "Outdoor bar table and stool",
     "price": "Rp 500.000",
-    "img": "/src/assets/shop/image%203.png",
+    "img": "src/assets/shop/image%203.png",
     "discount": "50"
   },
   {
     "title": "Grifo",
     "details": "Night lamp",
     "price": "Rp 1.500.000",
-    "img": "/src/assets/shop/image%204.png",
+    "img": "src/assets/shop/image%204.png",
     "new": true
   },
   {
     "title": "Muggo",
     "details": "Small mug",
     "price": "Rp 150.000",
-    "img": "/src/assets/shop/image%205.png",
+    "img": "src/assets/shop/image%205.png",
     "discount": "30"
   },
   {
     "title": "Pingky",
     "details": "Cute bed set",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%206.png",
+    "img": "src/assets/shop/image%206.png",
     "new": true
   },
   {
     "title": "Elegant Mirror",
     "details": "Wall mounted mirror",
     "price": "Rp 900.000",
-    "img": "/src/assets/shop/img10.jpg"
+    "img": "src/assets/shop/img10.jpg"
   },
   {
     "title": "Modern Clock",
     "details": "Minimalist wall clock",
     "price": "Rp 350.000",
-    "img": "/src/assets/shop/img11.jpg",
+    "img": "src/assets/shop/img11.jpg",
     "discount": "10"
   },
   {
     "title": "Classic Vase",
     "details": "Ceramic flower vase",
     "price": "Rp 250.000",
-    "img": "/src/assets/shop/img12.jpg"
+    "img": "src/assets/shop/img12.jpg"
   },
   {
     "title": "Comfy Blanket",
     "details": "Soft and warm blanket",
     "price": "Rp 400.000",
-    "img": "/src/assets/shop/img13.jpg"
+    "img": "src/assets/shop/img13.jpg"
   },
   {
     "title": "Reading Lamp",
     "details": "Adjustable desk lamp",
     "price": "Rp 320.000",
-    "img": "/src/assets/shop/img14.jpg",
+    "img": "src/assets/shop/img14.jpg",
     "new": true
   },
   {
     "title": "Artistic Frame",
     "details": "Wooden photo frame",
     "price": "Rp 180.000",
-    "img": "/src/assets/shop/img15.jpg"
+    "img": "src/assets/shop/img15.jpg"
   },
   {
     "title": "Decorative Plant",
     "details": "Artificial green plant",
     "price": "Rp 220.000",
-    "img": "/src/assets/shop/img16.jpg"
+    "img": "src/assets/shop/img16.jpg"
   },
   {
     "title": "Syltherine",
     "details": "Stylish cafe chair",
     "price": "Rp 2.500.000",
-    "img": "/src/assets/shop/image%201.png"
+    "img": "src/assets/shop/image%201.png"
   },
   {
     "title": "Lolito",
     "details": "Luxury big sofa",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%202.png"
+    "img": "src/assets/shop/image%202.png"
   },
   {
     "title": "Respira",
     "details": "Outdoor bar table and stool",
     "price": "Rp 500.000",
-    "img": "/src/assets/shop/image%203.png",
+    "img": "src/assets/shop/image%203.png",
     "discount": "50"
   },
   {
     "title": "Grifo",
     "details": "Night lamp",
     "price": "Rp 1.500.000",
-    "img": "/src/assets/shop/image%204.png",
+    "img": "src/assets/shop/image%204.png",
     "new": true
   },
   {
     "title": "Muggo",
     "details": "Small mug",
     "price": "Rp 150.000",
-    "img": "/src/assets/shop/image%205.png",
+    "img": "src/assets/shop/image%205.png",
     "discount": "30"
   },
   {
     "title": "Pingky",
     "details": "Cute bed set",
     "price": "Rp 7.000.000",
-    "img": "/src/assets/shop/image%206.png",
+    "img": "src/assets/shop/image%206.png",
     "new": true
   },
   {
     "title": "Elegant Mirror",
     "details": "Wall mounted mirror",
     "price": "Rp 900.000",
-    "img": "/src/assets/shop/img10.jpg"
+    "img": "src/assets/shop/img10.jpg"
   },
   {
     "title": "Modern Clock",
     "details": "Minimalist wall clock",
     "price": "Rp 350.000",
-    "img": "/src/assets/shop/img11.jpg",
+    "img": "src/assets/shop/img11.jpg",
     "discount": "10"
   },
   {
     "title": "Classic Vase",
     "details": "Ceramic flower vase",
     "price": "Rp 250.000",
-    "img": "/src/assets/shop/img12.jpg"
+    "img": "src/assets/shop/img12.jpg"
   },
   {
     "title": "Comfy Blanket",
     "details": "Soft and warm blanket",
     "price": "Rp 400.000",
-    "img": "/src/assets/shop/img13.jpg"
+    "img": "src/assets/shop/img13.jpg"
   },
   {
     "title": "Reading Lamp",
     "details": "Adjustable desk lamp",
     "price": "Rp 320.000",
-    "img": "/src/assets/shop/img14.jpg",
+    "img": "src/assets/shop/img14.jpg",
     "new": true
   },
   {
     "title": "Artistic Frame",
     "details": "Wooden photo frame",
     "price": "Rp 180.000",
-    "img": "/src/assets/shop/img15.jpg"
+    "img": "src/assets/shop/img15.jpg"
   },
   {
     "title": "Decorative Plant",
     "details": "Artificial green plant",
     "price": "Rp 220.000",
-    "img": "/src/assets/shop/img16.jpg"
+    "img": "src/assets/shop/img16.jpg"
   }
 ]
