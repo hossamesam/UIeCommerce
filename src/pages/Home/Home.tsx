@@ -13,7 +13,7 @@ import Img1 from '../../assets/shop/image 1.png'
 import Img2 from '../../assets/shop/image 2.png'
 import Img3 from '../../assets/shop/image 3.png'
 import Img4 from '../../assets/shop/image 4.png'
-import Img5 from '../../assets/shop/image 5.png'
+import Img5 from '../../assets/shop/Image 5.png'
 import Img6 from '../../assets/shop/image 6.png'
 import Images from '../../assets/shop/Images.png'
 
