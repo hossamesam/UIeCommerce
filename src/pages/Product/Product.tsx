@@ -2,17 +2,18 @@ import { useState } from 'react';
 import { FaStar, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import Card from '../../componant/Card/Card';
 import DataCards from '../../Data/DataOfCards';
-
+import Product1 from "../../assets/Product/Product1.png";
+import Product2 from "../../assets/Product/Product2.png";
 
 const productImages = [
-    '/src/assets/shop/img10.jpg',
-    '/src/assets/shop/img11.jpg',
-    '/src/assets/shop/img12.jpg',
-    '/src/assets/shop/img13.jpg',
+    '../../assets/shop/img10.jpg',
+    '../../assets/shop/img11.jpg',
+    '../../assets/shop/img12.jpg',
+    '../../assets/shop/img13.jpg',
 ];
 
 function Product() {
-    const [mainImg, setMainImg] = useState(productImages[0]);
+    const [mainImg, setMainImg] = useState(DataCards()[0].img);
     const [size, setSize] = useState('L');
     const [color, setColor] = useState('gold');
     const [qty, setQty] = useState(1);
@@ -26,10 +27,10 @@ function Product() {
                         {productImages.map((img, idx) => (
                             <img
                                 key={idx}
-                                src={img}
+                                src={DataCards()[idx].img}
                                 alt={`thumb-${idx}`}
                                 className={`w-16 h-16 object-cover rounded cursor-pointer border ${mainImg === img ? 'border-[#B88E2F]' : 'border-transparent'}`}
-                                onClick={() => setMainImg(img)}
+                                onClick={() => setMainImg(DataCards()[idx].img)}
                             />
                         ))}
                     </div>
@@ -177,8 +178,8 @@ function SectionInformation() {
                         Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
                     </p>
                     <div className="flex flex-col md:flex-row gap-8">
-                        <img src='/src/assets/Product/Product1.png' alt="desc1" className="rounded-xl bg-PlaceboSnow-400 w-full md:w-1/2" />
-                        <img src='/src/assets/Product/Product2.png ' alt="desc2" className="rounded-xl bg-PlaceboSnow-400 w-full md:w-1/2" />
+                        <img src={Product1} alt="desc1" className="rounded-xl bg-PlaceboSnow-400 w-full md:w-1/2" />
+                        <img src={Product2} alt="desc2" className="rounded-xl bg-PlaceboSnow-400 w-full md:w-1/2" />
                     </div>
                 </div>
             )}
