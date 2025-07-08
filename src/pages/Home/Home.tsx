@@ -51,7 +51,7 @@ const DataCards = [
         title: "Muggo",
         details: "Small mug",
         price: "Rp 150.000",
-        img: Img5,
+        img: Img1,
         discount: "30"
 
     },
