@@ -128,7 +128,7 @@ function CartsProduct() {
         <section className='text-center text-2xl font-bold text-black p-8'>
             <div>Related Products</div>
             <div className='grid max-lg:grid-cols-2 max-xl:grid-cols-3 min-xl:grid-cols-3 gap-4 max-sm:grid-cols-1 p-8 items-center justify-center justify-items-center min-2xl:mx-36'>
-                {DataCards.slice(0, 3).map((item, index) => (
+                {DataCards().slice(0, 3).map((item, index) => (
                     <Card
                         key={index}
                         img={item.img}
